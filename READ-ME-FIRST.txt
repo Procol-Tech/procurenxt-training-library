@@ -1,27 +1,34 @@
 ProcureNXT - Persona-wise Training Material
 ===========================================
 
-Open index.html to use the library. It works three ways:
+Live site:  https://procol-tech.github.io/procurenxt-training-library/
+Repo:       https://github.com/Procol-Tech/procurenxt-training-library
 
-1. Straight from this folder. Double-click index.html. No internet needed.
-2. On a shared drive (Google Drive, SharePoint, a network share).
-   Keep the folder together; the links are relative.
-3. On any web host (Vercel, Netlify, GitHub Pages, an internal server).
-   Upload the whole folder and point the site at index.html.
+Share the live link. Users pick their persona, then open or download any
+manual. Each persona page can also be downloaded as a one-page PDF index,
+and the whole library has a master PDF (pdf/all-personas.pdf).
 
-Nothing here depends on claude.ai, and no one needs to sign in.
+To update: change the files, commit, push to main. GitHub Pages rebuilds
+in about a minute and the URL stays the same.
 
 Folder contents
-  index.html          master page, lists the 6 personas
-  personas/*.html     one page per persona, with Open PDF and Download
-  manuals/*.pdf       the 30 manuals
-  assets/             logo and heading font
+  index.html              master page, lists the 6 personas
+  personas/*.html         one page per persona, Open PDF and Download per manual
+  pdf/all-personas.pdf    master index PDF, links to each persona PDF
+  pdf/<persona>.pdf       per-persona index PDF, links to each manual
+  manuals/*.pdf           the 30 manuals
+  assets/                 logo and heading font
+
+Inside the PDFs, Open points at the Pages URL (views in the browser) and
+Download points at raw.githubusercontent.com, which is served as
+application/octet-stream so the browser saves the file instead of
+displaying it. Keep both hosts reachable or those buttons stop working.
 
 Known issues in the source manuals (not introduced by this build):
-  - Every manual page carries a Scribe "FREE PREVIEW" watermark.
-    These were exported on a free Scribe plan and need re-exporting
-    from a paid account before going to a client.
-  - Four manuals point at the QA environment (ril-qa.ag-ri.in) rather
-    than production: How to approve an RFX, How to create an RFA request,
-    How to approve an RFA request, and How to create and publish an RFI
-    and Auction in ProcureNXT.
+  - Every manual page carries a Scribe "FREE PREVIEW" watermark. These
+    were exported on a free Scribe plan and need re-exporting from a paid
+    account before going to a client.
+  - Four manuals point at the QA environment (ril-qa.ag-ri.in) rather than
+    production: How to approve an RFX, How to create an RFA request, How to
+    approve an RFA request, and How to create and publish an RFI and
+    Auction in ProcureNXT.
