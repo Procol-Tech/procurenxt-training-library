@@ -1,0 +1,27 @@
+ProcureNXT - Persona-wise Training Material
+===========================================
+
+Open index.html to use the library. It works three ways:
+
+1. Straight from this folder. Double-click index.html. No internet needed.
+2. On a shared drive (Google Drive, SharePoint, a network share).
+   Keep the folder together; the links are relative.
+3. On any web host (Vercel, Netlify, GitHub Pages, an internal server).
+   Upload the whole folder and point the site at index.html.
+
+Nothing here depends on claude.ai, and no one needs to sign in.
+
+Folder contents
+  index.html          master page, lists the 6 personas
+  personas/*.html     one page per persona, with Open PDF and Download
+  manuals/*.pdf       the 30 manuals
+  assets/             logo and heading font
+
+Known issues in the source manuals (not introduced by this build):
+  - Every manual page carries a Scribe "FREE PREVIEW" watermark.
+    These were exported on a free Scribe plan and need re-exporting
+    from a paid account before going to a client.
+  - Four manuals point at the QA environment (ril-qa.ag-ri.in) rather
+    than production: How to approve an RFX, How to create an RFA request,
+    How to approve an RFA request, and How to create and publish an RFI
+    and Auction in ProcureNXT.

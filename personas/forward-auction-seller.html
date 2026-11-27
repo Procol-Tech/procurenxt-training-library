@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forward Auction Seller · Training Material</title>
+<link rel="icon" href="../assets/logo-dark.png">
+<style>
+@font-face{font-family:'Newsreader';src:url('../assets/Newsreader.ttf') format('truetype');font-weight:200 800;font-display:swap}
+*{box-sizing:border-box}
+:root{--navy:#093970;--blue:#1375E4;--ink:#15202B;--muted:#5A6B80;--line:#D6E4F7;--bg:#F7FAFE;--card:#fff;--gold:#F5C14B}
+@media (prefers-color-scheme:dark){:root{--ink:#E8EEF6;--muted:#9DB0C6;--line:#1E3A5F;--bg:#0A1420;--card:#101F30}}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+ background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+ background-size:26px 26px;background-position:-1px -1px}
+.wrap{max-width:940px;margin:0 auto;padding:28px 20px 64px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--line);margin-bottom:26px}
+.top img{height:26px;width:auto}
+.lg-l{display:none}
+@media (prefers-color-scheme:dark){.lg-d{display:none}.lg-l{display:inline}}
+.kick{color:var(--blue);font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;margin:0 0 6px}
+h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:34px;line-height:1.15;margin:0 0 8px;color:var(--navy)}
+@media (prefers-color-scheme:dark){h1{color:#8FC0FF}}
+.lede{color:var(--muted);margin:0 0 26px;max-width:62ch}
+.hero{background:var(--navy);border-radius:16px;padding:34px 30px;margin-bottom:28px;color:#fff;
+ background-image:radial-gradient(60% 120% at 80% 10%,rgba(19,117,228,.55),transparent 60%)}
+.hero img{height:26px;margin-bottom:22px}
+.hero .kick{color:var(--gold)}
+.hero h1{color:#fff;font-size:40px;margin-bottom:10px}
+.hero p{color:#C7DAF2;margin:0;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:10px;padding:16px 18px;
+ text-decoration:none;color:inherit;display:block;transition:transform .12s,box-shadow .12s}
+a.card:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(9,57,112,.13)}
+.card h2{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:19px;margin:0 0 6px;color:var(--navy)}
+@media (prefers-color-scheme:dark){.card h2{color:#8FC0FF}}
+.meta{color:var(--muted);font-size:12.5px;margin:0}
+.go{color:var(--blue);font-weight:650;font-size:13px;margin:10px 0 0}
+.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:15px 18px;margin-bottom:11px;
+ display:flex;gap:15px;align-items:flex-start}
+.num{flex:none;width:25px;height:25px;border-radius:50%;background:#E8F1FD;color:var(--blue);font-size:12px;font-weight:700;
+ display:flex;align-items:center;justify-content:center;margin-top:2px}
+@media (prefers-color-scheme:dark){.num{background:#15304F}}
+.item .body{flex:1;min-width:0}
+.item h3{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:17px;margin:0 0 4px;color:var(--navy)}
+@media (prefers-color-scheme:dark){.item h3{color:#8FC0FF}}
+.item p{margin:0;color:var(--muted);font-size:13.5px}
+.btns{display:flex;gap:8px;flex:none;align-items:center}
+.btn{display:inline-block;padding:7px 14px;border-radius:7px;font-size:13px;font-weight:650;text-decoration:none;white-space:nowrap}
+.btn.open{background:var(--blue);color:#fff}
+.btn.dl{border:1px solid var(--navy);color:var(--navy)}
+@media (prefers-color-scheme:dark){.btn.dl{border-color:#5E9BE8;color:#8FC0FF}}
+.btn:hover{filter:brightness(1.07)}
+.back{display:inline-block;color:var(--blue);text-decoration:none;font-weight:650;font-size:13px;margin-bottom:18px}
+.foot{margin-top:34px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+@media (max-width:620px){.item{flex-wrap:wrap}.btns{width:100%}.btn{flex:1;text-align:center}.hero h1{font-size:30px}}
+</style>
+</head><body><div class="wrap"><div class="top"><span><img class="lg-d" src="../assets/logo-dark.png" alt="ProcureNXT"><img class="lg-l" src="../assets/logo-light.png" alt="ProcureNXT"></span><span class="meta">Persona-wise Training Material</span></div><a class="back" href="../index.html">&larr; All personas</a><p class="kick">Persona</p><h1>Forward Auction Seller</h1><p class="lede">4 manuals. Open a manual in your browser, or download it to keep.</p><div class="item"><div class="num">1</div><div class="body"><h3>How to create and publish an RFI and Auction in ProcureNXT</h3><p>Turn a PR into an RFI, invite vendors and publish it, then add an auction stage, choose a strategy, schedule and publish.</p></div><div class="btns"><a class="btn open" href="../manuals/rfi-auction-procurenxt.pdf" target="_blank" rel="noopener">Open PDF</a><a class="btn dl" href="../manuals/rfi-auction-procurenxt.pdf" download="How to create and publish an RFI and Auction in ProcureNXT.pdf">Download</a></div></div><div class="item"><div class="num">2</div><div class="body"><h3>How to set up a standalone J-Auction</h3><p>Configure a knockout auction (starting price at or below L1, tick size, round interval), publish it, and add vendors&#x27; bids with offer reference number and SAC code.</p></div><div class="btns"><a class="btn open" href="../manuals/standalone-j-auction-setup.pdf" target="_blank" rel="noopener">Open PDF</a><a class="btn dl" href="../manuals/standalone-j-auction-setup.pdf" download="How to set up a standalone J-Auction.pdf">Download</a></div></div><div class="item"><div class="num">3</div><div class="body"><h3>How to create and publish a standalone J-Auction event</h3><p>Create a J-Auction from scratch: pick line items and quantities, create the project, set knockout parameters, invite vendors, schedule, publish and add initial bids.</p></div><div class="btns"><a class="btn open" href="../manuals/standalone-j-auction-create-publish.pdf" target="_blank" rel="noopener">Open PDF</a><a class="btn dl" href="../manuals/standalone-j-auction-create-publish.pdf" download="How to create and publish a standalone J-Auction event.pdf">Download</a></div></div><div class="item"><div class="num">4</div><div class="body"><h3>How to submit a pre-bid in the auction portal</h3><p>Enter a vendor&#x27;s pre-bid from the Auction tab&#x27;s Participants section, with the rate, offer reference number and SAC number.</p></div><div class="btns"><a class="btn open" href="../manuals/pre-bid-auction-portal.pdf" target="_blank" rel="noopener">Open PDF</a><a class="btn dl" href="../manuals/pre-bid-auction-portal.pdf" download="How to submit a pre-bid in the auction portal.pdf">Download</a></div></div>
+<p class="foot">ProcureNXT training material. Every file in this library is served from this folder, so the links keep working wherever it is hosted.</p>
+</div></body></html>
